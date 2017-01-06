@@ -4,104 +4,16 @@ $border: 1px #000 solid;
 $highlight: #000;
 
 
-$grid_cols : 12;
+$max_cols : 12;
 $max_width : 100%; /* a var for max width */
-$col_1_width : $max_width / $grid_cols;
+$single_col : $max_width / $max_cols;
 
-.col-1 {
-    width: $col_1_width;
-}
+@for $i from 1 through 16 {
 
-.offset-1 {
-    margin-left: $col_1_width;    
-}
-
-.col-2 {
-    width: $col_1_width * 2;
-}
-
-.offset-2 {
-    margin-left: $col_1_width * 2;    
-}
-
-.col-3 {
-    width: $col_1_width * 3;
-}
-
-.offset-3 {
-    margin-left: $col_1_width * 3;    
-}
-
-.col-4 {
-    width: $col_1_width * 4;
-}
-
-.offset-4 {
-    margin-left: $col_1_width * 4;    
-}
-
-.col-5 {
-    width: $col_1_width * 5;
-}
-
-.offset-5 {
-    margin-left: $col_1_width * 5;    
-}
-
-.col-6 {
-    width: $col_1_width * 6;
-}
-
-.offset-6 {
-    margin-left: $col_1_width * 6;    
-}
-
-.col-7 {
-    width: $col_1_width * 7;
-}
-
-.offset-7 {
-    margin-left: $col_1_width * 7;    
-}
-
-.col-8 {
-    width: $col_1_width * 8;
-}
-
-.offset-8 {
-    margin-left: $col_1_width * 8;    
-}
-
-.col-9 {
-    width: $col_1_width * 9;
-}
-
-.offset-9 {
-    margin-left: $col_1_width * 9;    
-}
-
-.col-10 {
-    width: $col_1_width * 10;
-}
-
-.offset-10 {
-    margin-left: $col_1_width * 10;    
-}
-
-.col-11 {
-    width: $col_1_width * 11;
-}
-
-.offset-11 {
-    margin-left: $col_1_width * 11;    
-}
-
-.col-12 {
-    width: $col_1_width * 12;
-}
-
-.offset-12 {
-    margin-left: $col_1_width * 12;    
+    /** on the first loop i = 1 and iterates up to 16 
+        on each loop 
+    ***/
+    .col-#{$i} { width: $single_col * $i }
 }
 
 [class*='col-'] {
