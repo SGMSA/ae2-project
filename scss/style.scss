@@ -1,0 +1,15 @@
+$text: #FF2D00;
+$size: 14pt;
+
+p {
+    color: $text;
+    font-size: $size;
+    
+} 
+
+$border: 1px, #000, solid;
+
+.test-section {
+    margin: 0 auto;
+    border: $border;
+}

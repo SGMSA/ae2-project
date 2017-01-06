@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"$text: #FF2D00;\r\np {\r\n    color: $text;\r\n    font-size: 14pt;\r\n} "
+	],
+	"mappings": ";AACA,AAAA,CAAC,CAAC;EACE,KAAK,EAFF,OAAO;EAGV,SAAS,EAAE,IAAK;CACnB",
+	"names": []
+}
