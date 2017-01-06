@@ -3,26 +3,65 @@ $size: 14pt;
 $border: 1px #000 solid;
 $highlight: #000;
 
-
 $max_cols : 12;
-$max_width : 100%; /* a var for max width */
+$max_width : 100%;
 $single_col : $max_width / $max_cols;
 
-@for $i from 1 through 16 {
-
-    /** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
+@for $i from 1 through 12 {
     .col-#{$i} { width: $single_col * $i }
 }
 
+.offset-1 {
+    margin-left: $single_col;
+}
+
+.offset-2 {
+    margin-left: $single_col * 2;
+}
+
+.offset-3 {
+    margin-left: $single_col * 3;
+}
+
+.offset-4 {
+    margin-left: $single_col * 4
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto !important; 
+}
+
+.wrapper:after,
+.row:after {
+      content: "";
+      display: table;
+      clear: both; 
+}
+
 [class*='col-'] {
-  float: left;
-    
+    float: left;
+    min-height: 1px;
 }
 
 [class*='col-']:last-of-type {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 p {

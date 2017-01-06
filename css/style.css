@@ -1,155 +1,139 @@
-/* a var for max width */
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-1 {
   width: 8.33333%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-2 {
   width: 16.66667%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-3 {
   width: 25%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-4 {
   width: 33.33333%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-5 {
   width: 41.66667%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-6 {
   width: 50%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-7 {
   width: 58.33333%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-8 {
   width: 66.66667%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-9 {
   width: 75%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-10 {
   width: 83.33333%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-11 {
   width: 91.66667%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 11, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-12 {
   width: 100%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
-.col-13 {
-  width: 108.33333%;
+/* line 14, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.offset-1 {
+  margin-left: 8.33333%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
-.col-14 {
-  width: 116.66667%;
+/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.offset-2 {
+  margin-left: 16.66667%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
-.col-15 {
-  width: 125%;
+/* line 22, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.offset-3 {
+  margin-left: 25%;
 }
 
-/** on the first loop i = 1 and iterates up to 16 
-        on each loop 
-    ***/
-/* line 16, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
-.col-16 {
-  width: 133.33333%;
+/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.offset-4 {
+  margin-left: 33.33333%;
 }
 
-/* line 19, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 30, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 40, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 45, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* line 51, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.wrapper:after,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 58, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='col-'] {
   float: left;
+  min-height: 1px;
 }
 
-/* line 24, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 63, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
 
-/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 67, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 p {
   color: #FF2D00;
   font-size: 14pt;
 }
 
-/* line 31, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 70, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 p:hover {
   color: #000;
   text-decoration: underline;
 }
 
-/* line 34, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 73, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .test-section {
   margin: 0 auto;
   border: 1px #000 solid;
