@@ -2,6 +2,7 @@ $text: #FF2D00;
 $size: 14pt;
 $border: 1px #000 solid;
 $highlight: #000;
+$font: sans-serif;
 
 $background-color: #323232;
 
@@ -11,6 +12,10 @@ $single_col : $max_width / $max_cols;
 
 @for $i from 1 through 12 {
     .col-#{$i} { width: $single_col * $i }
+}
+
+@for $i from 1 through 12 {
+    .offset-#{$i} { margin-left: $single_col * $i }
 }
 
 *,
@@ -58,22 +63,63 @@ p {
 
 .nav {
     margin: 0 auto;
-    border: $border;
-    height: 30px;
+    height: 40px;
     background-color: $background-color;
     
     ul {
         margin: 0 auto;
-        height: 80px;
         display: inline;
+        font-family: $font;
+        margin-left: 5px;
     }
     
     li {
-        padding: 5px;
+        padding: 12px;
         float: left;
-        width: 60px;
+        height: 40px;
+        width: 70px;
         list-style: none;
-        margin-left: 5px;
+        text-align: center;
+        transition: 0.5s ease 0s;
+        &:hover{background-color: #fff;}
     }
 }
 
+.nav 1 {
+}
+
+.nav2 {
+    border-left: $border;
+}
+
+.nav3 {
+    border-left: $border;
+}
+
+.nav4 {
+    border-left: $border;
+}
+
+
+.hero {
+    margin: 0;
+    position: absolute;
+    z-index: -1;
+    overflow: visible;
+    width: 100%;
+}
+
+.repd {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: block;
+    z-index: -1;
+    width: 50%;
+    height: 22%;
+}
+
+.row-2 {
+    clear: both;
+    height: auto;
+}
