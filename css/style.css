@@ -239,39 +239,48 @@ p:hover {
   height: 500px;
 }
 
+/* line 124, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.article {
+  height: 200px;
+}
+
 @media (max-width: 1000px) {
-  /* line 125, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 129, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .drop {
     clear: both;
     width: 100%;
   }
-  /* line 129, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 133, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .aside {
     width: 33.32%;
   }
-  /* line 132, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 136, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .main {
     width: 66.64%;
   }
-  /* line 135, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 139, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .hide {
     display: none;
+  }
+  /* line 142, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  .article {
+    width: 50%;
   }
 }
 
 @media (max-width: 640px) {
-  /* line 142, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 149, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .drop {
     clear: both;
     width: 100%;
   }
-  /* line 146, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 153, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .aside {
     clear: both;
     width: 100%;
     height: 80px;
   }
-  /* line 151, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 158, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .main {
     width: 100%;
   }
