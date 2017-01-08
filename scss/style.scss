@@ -10,11 +10,6 @@ $max_cols : 12;
 $max_width : 100%;
 $single_col : $max_width / $max_cols;
 
-
-@for $i from 1 through 12 {
-    .offset-#{$i} { width: $single_col * $i }
-}
-
 @for $i from 1 through 12 {
     .col-#{$i} { width: $single_col * $i }
 }
@@ -30,9 +25,15 @@ $single_col : $max_width / $max_cols;
     box-sizing: border-box; 
 }
 
+body {
+    margin: 0;
+}
+
 .wrapper {
-    width: 100%;
-    margin: 0 auto;
+  display: table;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 img {
