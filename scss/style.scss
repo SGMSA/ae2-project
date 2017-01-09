@@ -4,8 +4,10 @@ $border: 1px #000 solid;
 $highlight: #000;
 $font: sans-serif;
 $background-color: #323232;
+$white: #fff;
 $nav-width: 60px;
-$title-1: 'Source Sans Pro', sans-serif;
+$title-1: 'Coda', cursive;
+$radius: 10px;
 
 $max_cols : 12;
 $max_width : 100%;
@@ -21,6 +23,15 @@ $offset_col : $max_width / $max_cols;
 
 @for $i from 1 through 12 {
     .offset-#{$i} { width: $offset_col * $i }
+}
+
+@mixin inbox {
+    width: 100%;
+    font-family: $title-1;
+    font-size: 14pt;
+    background-color: $white;
+    text-align: center;
+    border-radius: $radius;
 }
 
 *,
@@ -44,6 +55,10 @@ body::-webkit-scrollbar {
 
 img {
     max-width: 100%;
+}
+
+.logo {
+    margin-top: 10px;
 }
 
 .wrapper {
@@ -141,16 +156,22 @@ h2 {
 }
 
 .aside {
-    height: 500px;
+    height:300px;
+    padding-top: 10px;
+}
+
+.inboxhead {
+    @include inbox;
+    height: 100%;
 }
 
 .main {
-    height: 500px;
+    height: 300px;
     padding: 5px;
 }
 
 .drop {
-    height: 500px;
+    height: 300px;
     padding-top: 0px;
 }
 
@@ -161,6 +182,20 @@ h2 {
     box-shadow: 2px 2px 5px #131313;
 }
 
+[class*="profile-"] {
+    height: 100%;
+    background-color: $white;
+}
+
+.profile-pic {
+    border-bottom-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+.profile-bio {
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
 @media (max-width: 1000px) {
     .drop {
         clear: both;
