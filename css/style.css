@@ -311,7 +311,7 @@ h2 {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   /* line 185, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .drop {
     clear: both;
@@ -337,7 +337,7 @@ h2 {
   }
   /* line 203, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .icon {
-    width: 35%;
+    width: 45%;
     vertical-align: middle;
   }
 }
