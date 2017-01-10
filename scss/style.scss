@@ -5,7 +5,7 @@ $highlight: #000;
 $font: sans-serif;
 $background-color: #323232;
 $white: #fff;
-$nav-width: 60px;
+$nav-width: 50px;
 $title-1: 'Coda', cursive;
 $radius: 10px;
 
@@ -34,6 +34,16 @@ $offset_col : $max_width / $max_cols;
     border-radius: $radius;
 }
 
+@mixin radius-left {
+    border-bottom-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+@mixin radius-right {
+    border-top-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+}
+
 *,
 *:after,
 *:before {
@@ -55,6 +65,7 @@ body::-webkit-scrollbar {
 
 img {
     max-width: 100%;
+    vertical-align: middle;
 }
 
 .logo {
@@ -122,25 +133,27 @@ p {
         display: inline;
         font-family: $font;
         margin-left: 5px;
+        width: 100%;
     }
     
     li {
-        padding: 12px;
+        padding: 8px;
         float: left;
         height: 60px;
-        list-style: none;
+        padding-top: 12px;
         text-align: center;
+        list-style: none;
+        vertical-align: middle;
         transition: 0.5s ease 0s;
         &:hover{background-color: #fff;}
     }
 }
 
 .nav1 {
-    padding: 10px;
     width: $nav-width;
 }
 
-.nav2, .nav3, .nav4 {
+.nav2, .nav3, .nav4, .nav5 {
     border-left: $border;
     width: $nav-width;
 }
@@ -178,24 +191,31 @@ h2 {
 .article {
     background-color: #fff;
     height: 500px;
-    
     box-shadow: 2px 2px 5px #131313;
 }
 
 [class*="profile-"] {
     height: 100%;
     background-color: $white;
+    margin-top: 10px;
 }
 
 .profile-pic {
-    border-bottom-left-radius: $radius;
-    border-top-left-radius: $radius;
+    @include radius-left;
 }
 
 .profile-bio {
-    border-top-right-radius: $radius;
-    border-bottom-right-radius: $radius;
+    @include radius-right;
 }
+
+.event {
+    @include radius-left;
+}
+
+.dj {
+    @include radius-right;
+}
+
 @media (max-width: 1000px) {
     .drop {
         clear: both;
@@ -212,6 +232,10 @@ h2 {
     }
     .article {
         width: 50%;
+    }
+    
+    .nav {
+        margin-right: 60%;
     }
     
 }
@@ -232,12 +256,13 @@ h2 {
     .article {
         width: 100%;
     }
-    .nav1, .nav2, .nav3, .nav4 {
-        width: 25%;
+    .nav1, .nav2, .nav3, .nav4, .nav5 {
+        width: 20%;
     }
     .icon {
-        width: 45%;
+        width: 55%;
         vertical-align: middle;
+        min-width: 30px;
     }
 }
 
