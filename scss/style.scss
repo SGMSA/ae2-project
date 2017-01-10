@@ -59,10 +59,6 @@ body {
     background-color: #818181;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -189,31 +185,60 @@ h2 {
 }
 
 .article {
-    background-color: #fff;
+    background-color: $white;
     height: 500px;
-    box-shadow: 2px 2px 5px #131313;
+    margin-right: 5px;
+}
+
+.calendar {
+    height: 300px;
+    margin-right: 10px;
 }
 
 [class*="profile-"] {
-    height: 100%;
     background-color: $white;
     margin-top: 10px;
+    height: 100%;
 }
 
+.profile-drop {
+    margin-left: 10px;
+    border-radius: $radius;
+}
 .profile-pic {
-    @include radius-left;
+}
+
+.profile-title {
 }
 
 .profile-bio {
-    @include radius-right;
+}
+
+.profile-main {
+    border-radius: $radius;
+    height: 290px;
 }
 
 .event {
-    @include radius-left;
+    margin-top: 70px;
 }
 
-.dj {
-    @include radius-right;
+.inbox {
+    height: 300px;
+}
+
+.requests {
+    height: 200px;
+    background-color: $white;
+    margin-top: 10px;
+    border-radius: $radius;
+}
+
+.offers {
+    height: 200px;
+    background-color: $white;
+    margin-top: 10px;
+    border-radius: $radius;
 }
 
 @media (max-width: 1000px) {
@@ -232,12 +257,29 @@ h2 {
     }
     .article {
         width: 50%;
+        margin-right: 0;
     }
-    
+    .calendar {
+        height: 300px;
+        margin-right: 0;
+    }
     .nav {
         margin-right: 60%;
     }
-    
+    body::-webkit-scrollbar {
+        display: none;
+    }
+    .profile-main {
+        width: 100%;
+        border-radius: 0px;
+        margin-top: 0;
+    }
+    .profile-drop {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+        border-radius: 0;
+    }
 }
 
 @media (max-width: 600px) {
@@ -264,6 +306,7 @@ h2 {
         vertical-align: middle;
         min-width: 30px;
     }
+    .list {
+        margin-top: 10px;
+    }
 }
-
-
