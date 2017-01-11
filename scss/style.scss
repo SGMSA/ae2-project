@@ -1,4 +1,4 @@
-$text: #FF2D00;
+$text: #5d5d5d;
 $size: 14pt;
 $border: 1px #000 solid;
 $highlight: #000;
@@ -8,6 +8,7 @@ $white: #fff;
 $nav-width: 50px;
 $title-1: 'Coda', cursive;
 $radius: 5px;
+$box-shadow: 3px 3px 3px $text;
 
 $max_cols : 12;
 $max_width : 100%;
@@ -112,9 +113,10 @@ img {
 
 p {
     color: $text;
-    font-size: $size;
-    &:hover{color: $highlight; text-decoration: underline;}
-} 
+    font-size: 10pt;
+    &:hover{color: #000;}
+    font-family: $font;
+}
 
 .nav {
     margin: 0 auto;
@@ -122,7 +124,7 @@ p {
     background-color: $background-color;
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 0; 
     box-shadow: 2px 2px 5px #131313;
     
     ul {
@@ -173,16 +175,13 @@ h2 {
 .inboxhead {
     @include inbox;
     height: 100%;
+    box-shadow: $box-shadow;
 }
 
 .main {
     height: 300px;
     padding: 5px;
-}
-
-.drop {
-    height: 300px;
-    padding-top: 0px;
+    margin-right: 10px;
 }
 
 .article {
@@ -202,26 +201,38 @@ h2 {
 }
 [class*="profile-"] {
     background-color: $white;
-    margin-top: 10px;
     height: 100%;
+    border-top: 50px;
 }
 
 .profile-drop {
-    margin-left: 10px;
+    margin-top: 30px;
     border-radius: $radius;
+    box-shadow: $box-shadow;
 }
+
 .profile-pic {
+    padding: 0;
 }
 
 .profile-title {
+    
 }
 
 .profile-bio {
+    margin-top: 5px;
 }
 
 .profile-main {
     border-radius: $radius;
     height: 290px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.picture {
+    margin: 0; 
+    border-radius: $radius;
 }
 
 .event {
@@ -256,6 +267,7 @@ h2 {
     }
     .main {
         width: 66.64%;
+        margin-right: 0;
     }
     .hide {
         display: none;
@@ -279,7 +291,6 @@ h2 {
     }
     .profile-main {
         width: 100%;
-        border-radius: 0px;
         margin-top: 0;
     }
     .profile-drop {
