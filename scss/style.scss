@@ -7,7 +7,7 @@ $background-color: #323232;
 $white: #fff;
 $nav-width: 50px;
 $title-1: 'Coda', cursive;
-$radius: 10px;
+$radius: 5px;
 
 $max_cols : 12;
 $max_width : 100%;
@@ -123,6 +123,7 @@ p {
     width: 100%;
     position: fixed;
     top: 0;
+    box-shadow: 2px 2px 5px #131313;
     
     ul {
         margin: 0 auto;
@@ -193,8 +194,12 @@ h2 {
 .calendar {
     height: 300px;
     margin-right: 10px;
+    border-radius: $radius;
 }
 
+.list {
+    border-radius: $radius;
+}
 [class*="profile-"] {
     background-color: $white;
     margin-top: 10px;
@@ -262,6 +267,9 @@ h2 {
     .calendar {
         height: 300px;
         margin-right: 0;
+    }
+    .calendar, .list {
+        border-radius: 0px;
     }
     .nav {
         margin-right: 60%;
