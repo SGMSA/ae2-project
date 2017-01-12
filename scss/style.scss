@@ -270,14 +270,16 @@ h2 {
 
 h3 {
     font-family: $title-1;
+    margin-bottom: 5px;
 }
 
 .location {
-    height: 200px;
+    height: 190px;
 }
 
 .iframe  {
     padding-right: 10px;
+    
 }
 .picture {
     margin: 0; 
@@ -406,6 +408,13 @@ h3 {
         }
         .logo {
             height: auto;
+        }
+        .profile-main {
+            height: 100%;
+            
+            .iframe {
+                height: 150px;
+            }
         }
         .info {
             width: 100%;
