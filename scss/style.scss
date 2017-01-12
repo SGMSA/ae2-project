@@ -192,8 +192,6 @@ h2 {
     
     li {
         margin-top: 3px;
-        border-top: $border;
-        border-bottom: $border;
         height: 50px;
         background-color: $background-color; 
         padding: 8px;
@@ -262,10 +260,25 @@ h2 {
 
 .profile-main {
     border-radius: $radius;
-    height: 290px;
+    height: 450px;
     margin-right: 10px;
-}                 
+}
 
+.info {
+    height: 90%;
+}
+
+h3 {
+    font-family: $title-1;
+}
+
+.location {
+    height: 200px;
+}
+
+.iframe  {
+    padding-right: 10px;
+}
 .picture {
     margin: 0; 
     border-radius: $radius;
@@ -328,6 +341,7 @@ h2 {
         .profile-main {
             width: 100%;
             margin-top: 0;
+            border-radius: 0;
         }
         .profile-drop {
             width: 100%;
@@ -392,5 +406,8 @@ h2 {
         }
         .logo {
             height: auto;
+        }
+        .info {
+            width: 100%;
         }
     }
