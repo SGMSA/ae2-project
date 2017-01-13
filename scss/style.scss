@@ -136,7 +136,6 @@ p {
         margin: 0 auto;
         display: inline;
         font-family: $font;
-        margin-left: 5px;
         width: 100%;
     }
     
@@ -196,11 +195,22 @@ h2 {
         padding: 8px;
     }
     
+    .msg {
+        box-shadow: $box-shadow;
+    }
     p {
         @extend p;
-        color: #fff;
-        &:hover{color: $text;}
+        color: $white;
+        &:hover{color: #97c11d;}
     }
+}
+
+.inbox-main {
+    @include inbox;
+    height: 450px;
+    box-shadow: $box-shadow;
+    margin-top: 5px;
+    width: 80%;
 }
 
 .main {
@@ -239,6 +249,7 @@ label {
 tr, th, td {
     text-align: center;
     font-family: $font;
+    height: 25px;
 }
 
 td {
