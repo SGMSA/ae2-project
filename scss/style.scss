@@ -229,6 +229,27 @@ h2 {
     border-radius: $radius;
 }
 
+.calendar-table {
+    width: 100%;
+}
+
+label {
+    font-family: $font;
+}
+tr, th, td {
+    text-align: center;
+    font-family: $font;
+}
+
+td {
+    background-color: #818181;
+    &:hover{background-color: #97c11d;}
+}
+
+th {
+    background-color: $background-color;
+    color: $white;
+}
 .list {
     border-radius: $radius;
 }
@@ -300,6 +321,7 @@ h3 {
 .event {
     margin-top: 70px;
 }
+
 
 .inbox {
     height: 300px;
