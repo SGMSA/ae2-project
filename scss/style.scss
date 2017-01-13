@@ -239,9 +239,10 @@ h4 {
 }
 
 .calendar {
-    height: 300px;
+    height: auto;;
     margin-right: 10px;
     border-radius: $radius;
+    padding-bottom: 20px;
 }
 
 .calendar-table {
@@ -455,10 +456,10 @@ th {
     background-color: $white;
     transition: 0.5s ease 0s;
     &:hover{background-color: #97c11d;}
-    border: $border;
     border-radius: $radius;
     text-align: center;
-    
+    border: $border;
+    box-shadow: $box-shadow;
     a {
         color: #000;
         text-decoration: none;
@@ -472,6 +473,8 @@ th {
     background-color: $white;
     transition: 0.5s ease 0s;
     &:hover{background-color: #FE2E2E;}
+    margin-left: 5px;
+    box-shadow: $box-shadow;
     
      a {
         color: #000;
