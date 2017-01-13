@@ -335,11 +335,10 @@ th {
 
 .feature {
     height: 150px;
-    border: $border;
     margin-top: 10px;
     .pic {
         height: 100%;
-        border: $border;
+        padding: 0;
     }
     .book {
         margin-top: 30px;
@@ -410,11 +409,13 @@ th {
     height: 30px;
     margin-top: 10px;
     background-color: #818181;
+    border: $border;
 }
 
 .receive-body {
     margin: 0;
     border: $border;
+    border-top: none;
     height: 60px;
     
     p {
@@ -435,11 +436,13 @@ th {
     height: 30px;
     margin-top: 10px;
     background-color: #818181;
+    border: $border;
 }
 
 .offer-body {
     margin: 0;
     border: $border;
+    border-top: none;
     height: auto;
     
     p {
@@ -606,6 +609,7 @@ th {
         }
         .logo {
             height: auto;
+            width: 95%;
         }
         .profile-main {
             height: 100%;
