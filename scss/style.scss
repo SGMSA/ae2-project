@@ -31,7 +31,6 @@ $offset_col : $max_width / $max_cols;
     font-family: $title-1;
     font-size: 14pt;
     background-color: $white;
-    text-align: center;
     border-radius: $radius;
 }
 
@@ -167,6 +166,16 @@ h2 {
     color: #97c11d;
 }
 
+h3 {
+    font-family: $title-1;
+    font-size: 15pt;
+}
+
+h4 {
+    font-family: $title-1;
+    font-size: 12pt;
+    text-align: center;
+}
 .icon {
         width: 100%;
 }
@@ -181,6 +190,8 @@ h2 {
     height: 95%;
     box-shadow: $box-shadow;
     margin-top: 5px;
+    min-width: 80px;
+    text-align: center;
     
     ul {
         list-style: none;
@@ -193,6 +204,7 @@ h2 {
         height: 50px;
         background-color: $background-color; 
         padding: 8px;
+        min-width: 80px;
     }
     
     .msg {
@@ -213,15 +225,16 @@ h2 {
 
 .article {
     background-color: $white;
-    height: 500px;
     margin-right: 5px;
     box-shadow: $box-shadow;
     
     .upper {
         margin-left: 20px;
+        height: auto;
     }
     .lower {
-        
+        margin-top: 0;
+        height: auto;
     }
 }
 
@@ -297,12 +310,6 @@ th {
     height: 90%;
 }
 
-h3 {
-    font-family: $title-1;
-    margin-bottom: 5px;
-    font-size: 15pt;
-}
-
 .location {
     height: 190px;
 }
@@ -326,6 +333,19 @@ h3 {
     margin-top: 70px;
 }
 
+.feature {
+    height: 150px;
+    border: $border;
+    margin-top: 10px;
+    .pic {
+        height: 100%;
+        border: $border;
+    }
+    .book {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
 
 .inbox {
     height: 300px;
@@ -337,12 +357,17 @@ h3 {
     box-shadow: $box-shadow;
     margin-top: 5px;
     width: 80%;
+    
+    p {
+        padding: 5px;
+    }
 }
 
 .selector {
     height: 90%;
     background-color: #818181;
     @include radius-left;
+    box-shadow: $box-shadow;
         ul {
             list-style: none;
             margin-top: 15px;
@@ -350,12 +375,12 @@ h3 {
         li {
             height: 18%;
             padding: 10px;
-            padding-top: 20px;
+            padding-top: 15px;
             margin-bottom: 5px;
             border-radius: $radius;
             width: 100%;
             background-color: $background-color;
-            
+            text-align: center;
         }
         p {
             @extend p;
@@ -368,21 +393,88 @@ h3 {
     border: $border;
     height: 90%;
     @include radius-right;
+    box-shadow: $box-shadow;
+    background-color: $white;
 }
 
 .requests {
-    height: 200px;
+    height: auto;
     background-color: $white;
     margin-top: 10px;
     margin-right: 10px;
     border-radius: $radius;
 }
 
+.receive-top {
+    margin: 0;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #818181;
+}
+
+.receive-body {
+    margin: 0;
+    border: $border;
+    height: 60px;
+    
+    p {
+        font-size: 11pt;
+        text-align: center;
+    }
+}
+
 .offers {
-    height: 200px;
+    height: auto;
     background-color: $white;
     margin-top: 10px;
     border-radius: $radius;
+}
+
+.offer-top {
+    margin: 0;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #818181;
+}
+
+.offer-body {
+    margin: 0;
+    border: $border;
+    height: auto;
+    
+    p {
+        font-size: 11pt;
+        text-align: center;
+    }
+}
+
+.accept {
+    background-color: $white;
+    transition: 0.5s ease 0s;
+    &:hover{background-color: #97c11d;}
+    border: $border;
+    border-radius: $radius;
+    text-align: center;
+    
+    a {
+        color: #000;
+        text-decoration: none;
+        &:hover {color: $white;}
+    }
+}
+
+.decline {
+    border: $border;
+    border-radius: $radius;
+    background-color: $white;
+    transition: 0.5s ease 0s;
+    &:hover{background-color: #FE2E2E;}
+    
+     a {
+        color: #000;
+        text-decoration: none;
+        &:hover {color: $white;}
+    }
 }
 
 @media (max-width: 1000px) {
@@ -435,6 +527,11 @@ h3 {
         }
         .selector {
             margin-right: 0;
+            min-width: 100px;
+            
+            li {
+                min-width: 80px;
+            }
         }
         .inbox-main {
             margin: 0;
@@ -443,6 +540,13 @@ h3 {
         }
         h3 {
             font-size: 12pt;
+            margin: 0;
+        }
+    
+        .feature {
+            .book {
+                font-size: 10pt;
+            }
         }
     }
 
@@ -497,6 +601,7 @@ h3 {
                 height: 50px;
                 background-color: $background-color; 
                 padding: 8px;
+                padding-top: 15px;
             }
         }
         .logo {
@@ -526,6 +631,7 @@ h3 {
     
         .selector {
             width: 100%;
+            border-radius: 0;
             
             li {
                 padding-top: 10px;
@@ -533,6 +639,8 @@ h3 {
         }
         .view {
             width: 100%;
+            margin-top: 10px;
+            border-radius: 0;
         }
         .requests {
             width: 100%;
