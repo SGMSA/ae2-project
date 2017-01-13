@@ -205,14 +205,6 @@ h2 {
     }
 }
 
-.inbox-main {
-    @include inbox;
-    height: 450px;
-    box-shadow: $box-shadow;
-    margin-top: 5px;
-    width: 80%;
-}
-
 .main {
     height: 300px;
     padding: 5px;
@@ -308,6 +300,7 @@ th {
 h3 {
     font-family: $title-1;
     margin-bottom: 5px;
+    font-size: 15pt;
 }
 
 .location {
@@ -338,10 +331,50 @@ h3 {
     height: 300px;
 }
 
+.inbox-main {
+    @include inbox;
+    height: 450px;
+    box-shadow: $box-shadow;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.selector {
+    height: 90%;
+    background-color: #818181;
+    @include radius-left;
+        ul {
+            list-style: none;
+            margin-top: 15px;
+        }
+        li {
+            height: 18%;
+            padding: 10px;
+            padding-top: 20px;
+            margin-bottom: 5px;
+            border-radius: $radius;
+            width: 100%;
+            background-color: $background-color;
+            
+        }
+        p {
+            @extend p;
+            color: $white;
+            &:hover{color: #97c11d;}
+        }
+}
+
+.view {
+    border: $border;
+    height: 90%;
+    @include radius-right;
+}
+
 .requests {
     height: 200px;
     background-color: $white;
     margin-top: 10px;
+    margin-right: 10px;
     border-radius: $radius;
 }
 
@@ -399,6 +432,17 @@ h3 {
             margin-top: 50px;
             border-radius: $radius;
             box-shadow: $box-shadow;
+        }
+        .selector {
+            margin-right: 0;
+        }
+        .inbox-main {
+            margin: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h3 {
+            font-size: 12pt;
         }
     }
 
@@ -474,5 +518,28 @@ h3 {
             box-shadow: $box-shadow;
             width: 95%;
             margin: 10px;
+        }
+        .inbox-main {
+            height: auto;
+            width: 100%;
+        }
+    
+        .selector {
+            width: 100%;
+            
+            li {
+                padding-top: 10px;
+            }
+        }
+        .view {
+            width: 100%;
+        }
+        .requests {
+            width: 100%;
+            border-radius: 0;
+        }
+        .offers {
+            width: 100%;
+            border-radius: 0;
         }
     }
