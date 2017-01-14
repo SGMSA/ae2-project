@@ -277,6 +277,30 @@ th {
     border-top: 50px;
 }
 
+span.incorrect {
+    color: red;
+    float: right;
+}
+
+span.correct {
+    color: green;
+    float: right;
+}
+
+label {
+    padding: 20px;
+}
+
+.message {
+    margin-left: 30px;
+}
+
+.submit {
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .profile-drop {
     margin-top: 20px;
     border-radius: $radius;
@@ -413,6 +437,7 @@ th {
     margin-top: 10px;
     margin-right: 10px;
     border-radius: $radius;
+    box-shadow: $box-shadow;
 }
 
 .content {
@@ -443,6 +468,7 @@ th {
     background-color: $white;
     margin-top: 10px;
     border-radius: $radius;
+    box-shadow: $box-shadow;
 }
 
 .offer-top {
@@ -566,6 +592,9 @@ th {
             .book {
                 font-size: 10pt;
             }
+        }
+        form {
+            width: 100%;
         }
     }
 

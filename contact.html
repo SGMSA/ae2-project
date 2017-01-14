@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="Images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Requests</title>
+    <script src="scripts/contact.js" type="text/javascript"></script>
+</head>
+
+<body onload="contact()">
+    <div class="nav">
+                    <ul>
+                        <li class="nav1"><a href="index.html"><img class="icon" src="Images/home-icon.svg" alt="home"></a></li>
+                        <li class="nav2"><a href="profile.html"><img class="icon" src="Images/profile-icon.svg" alt="profile"></a></li>
+                        <li class="nav3"><a href="events.html"><img class="icon" src="Images/events-icon.svg" alt="events"></a></li>
+                        <li class="nav4"><a href="inbox.html"><img class="icon" src="Images/inbox-icon.svg" alt="inbox"></a></li>
+                        <li class="nav5"><a href="requests.html"><img class="icon" src="Images/request.svg" alt="request/offer"></a></li>
+                    </ul>
+            </div>
+        <div class="wrapper top">
+            <div class="row ">
+                <div class="offset-3">
+                </div>
+                <div class="col-6 requests">
+                    <form id="contact" method="get"> <!-- Start of form -->
+                        <fieldset class="contact">
+                            <legend><h3>Enter Your Details</h3></legend><br><!-- Use of <br> tags to give better spacings -->
+                                <label>First Name&#42;: <input id="fName" type="text" name="firstName" onchange="validateForm(event)" placeholder="Enter First Name">
+                                    <span id="errorFirstName" class="incorrect" style="display:none"> &#10006;</span>
+                                    <span id="tickFirstName" class="correct" style="display:none"> &#10003;</span>
+                                </label><br><br>
+                                <label>Last Name&#42;: <input id="lName" type="text" name="lastName" onchange="validateForm(event)" placeholder="Enter Last Name">
+                                    <span id="errorLastName" class="incorrect" style="display:none"> &#10006;</span>
+                                    <span id="tickLastName" class="correct" style="display:none"> &#10003;</span>
+                                </label><br><br>
+                                <label>Email&#42;: <input id="eMail" type="text" name="userEmail" onchange="validateForm(event)">
+                                    <span id="errorEmail" class="incorrect" style="display:none"> &#10006;</span>
+                                    <span id="tickEmail" class="correct" style="display:none"> &#10003;</span>
+                                </label><br><br>
+                                <label>Phone: <input type="text" name="details" maxlength="11"></label>
+                                    <br><br>
+                                <label>Message?&#42;<br>
+                                    <textarea class="message" id="uMessage" name="userMessage" rows="3" cols="24" onchange="validateForm(event)"></textarea>
+                                        <span id="errorMessage" class="incorrect" style="display:none"> &#10006;</span>
+                                        <span id="tickMessage" class="correct" style="display:none"> &#10003;</span>
+                                </label><br><br>
+                                    <input class="submit" type="submit" name="submit" Value="Submit">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="offset-3 hide">
+                </div>
+            </div>
+        </div>
+</body>
+
+
+</html>
+
