@@ -1,3 +1,5 @@
+$body-bg: transparent; 
+
 $text: #000;
 $size: 14pt;
 $border: 1px #000 solid;
@@ -56,9 +58,8 @@ $offset_col : $max_width / $max_cols;
 
 body {
     margin: 0;
-    background-color: #818181;
+    background: url(../Images/mochaGrunge_@2X.png) repeat;
 }
-
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -398,7 +399,7 @@ th {
 }
 
 .view {
-    height: 90%;
+    height: 100%;
     @include radius-right;
     box-shadow: $box-shadow;
     background-color: $white;
@@ -414,6 +415,9 @@ th {
     border-radius: $radius;
 }
 
+.content {
+    height: 245px;
+}
 .receive-top {
     margin: 0;
     height: 30px;

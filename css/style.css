@@ -1,124 +1,124 @@
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-1 {
   width: 8.33333%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-2 {
   width: 16.66667%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-3 {
   width: 25%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-4 {
   width: 33.33333%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-5 {
   width: 41.66667%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-6 {
   width: 50%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-7 {
   width: 58.33333%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-8 {
   width: 66.66667%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-9 {
   width: 75%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-10 {
   width: 83.33333%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-11 {
   width: 91.66667%;
 }
 
-/* line 18, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 20, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .col-12 {
   width: 100%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-1 {
   width: 8.33333%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-2 {
   width: 16.66667%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-3 {
   width: 25%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-4 {
   width: 33.33333%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-5 {
   width: 41.66667%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-6 {
   width: 50%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-7 {
   width: 58.33333%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-8 {
   width: 66.66667%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-9 {
   width: 75%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-10 {
   width: 83.33333%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-11 {
   width: 91.66667%;
 }
 
-/* line 26, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 28, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offset-12 {
   width: 100%;
 }
 
-/* line 47, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 49, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 *,
 *:after,
 *:before {
@@ -129,25 +129,25 @@
   box-sizing: border-box;
 }
 
-/* line 57, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 59, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 body {
   margin: 0;
-  background-color: #818181;
+  background: url(../Images/mochaGrunge_@2X.png) repeat;
 }
 
-/* line 62, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 63, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 img {
   max-width: 100%;
   vertical-align: middle;
 }
 
-/* line 67, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 68, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .logo {
   margin-top: 10px;
   height: 91%;
 }
 
-/* line 72, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 73, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .wrapper {
   display: table;
   width: 100%;
@@ -158,31 +158,31 @@ img {
   margin-top: 40px;
 }
 
-/* line 82, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 83, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .top {
   margin-top: 70px;
 }
 
-/* line 86, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 87, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .bottom {
   margin-top: 0;
 }
 
-/* line 90, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 91, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='.row-']:before {
   content: "";
   clear: both;
   display: table;
 }
 
-/* line 96, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 97, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='row-']:after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* line 102, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 103, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='col-'] {
   float: left;
   padding-right: 10px;
@@ -190,26 +190,26 @@ img {
   padding: 10px;
 }
 
-/* line 109, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 110, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='offset-'] {
   float: left;
   padding-right: 10px;
   height: 40px;
 }
 
-/* line 115, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 116, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
 
-/* line 119, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 120, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 p, .inboxhead p, .selector p {
   color: #000;
   font-size: 10pt;
   font-family: sans-serif;
 }
 
-/* line 125, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 126, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav {
   margin: 0 auto;
   height: 60px;
@@ -220,7 +220,7 @@ p, .inboxhead p, .selector p {
   box-shadow: 2px 2px 5px #131313;
 }
 
-/* line 134, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 135, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav ul {
   margin: 0 auto;
   display: inline;
@@ -228,7 +228,7 @@ p, .inboxhead p, .selector p {
   width: 100%;
 }
 
-/* line 141, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 142, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav li {
   padding: 8px;
   float: left;
@@ -240,54 +240,54 @@ p, .inboxhead p, .selector p {
   transition: 0.5s ease 0s;
 }
 
-/* line 150, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 151, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav li:hover {
   background-color: #fff;
 }
 
-/* line 154, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 155, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav1 {
   width: 50px;
 }
 
-/* line 158, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 159, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .nav2, .nav3, .nav4, .nav5 {
   border-left: 1px #000 solid;
   width: 50px;
 }
 
-/* line 163, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 164, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 h2 {
   font-family: "Coda", cursive;
   font-size: 22pt;
   color: #97c11d;
 }
 
-/* line 169, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 170, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 h3 {
   font-family: "Coda", cursive;
   font-size: 15pt;
 }
 
-/* line 174, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 175, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 h4 {
   font-family: "Coda", cursive;
   font-size: 12pt;
   text-align: center;
 }
 
-/* line 179, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 180, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .icon {
   width: 100%;
 }
 
-/* line 183, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 184, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .aside {
   height: 300px;
   padding-top: 10px;
 }
 
-/* line 188, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 189, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead {
   width: 100%;
   font-family: "Coda", cursive;
@@ -301,14 +301,14 @@ h4 {
   text-align: center;
 }
 
-/* line 196, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 197, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead ul {
   list-style: none;
   margin-top: 0px;
   height: 100%;
 }
 
-/* line 202, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 203, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead li {
   margin-top: 3px;
   height: 50px;
@@ -317,48 +317,48 @@ h4 {
   min-width: 80px;
 }
 
-/* line 210, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 211, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead .msg {
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 213, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 214, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead p {
   color: #fff;
 }
 
-/* line 216, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 217, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inboxhead p:hover {
   color: #97c11d;
 }
 
-/* line 220, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 221, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .main {
   height: 300px;
   padding: 5px;
   margin-right: 10px;
 }
 
-/* line 226, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 227, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .article {
   background-color: #fff;
   margin-right: 5px;
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 231, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 232, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .article .upper {
   margin-left: 20px;
   height: auto;
 }
 
-/* line 235, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 236, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .article .lower {
   margin-top: 0;
   height: auto;
 }
 
-/* line 241, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 242, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .calendar {
   height: auto;
   margin-right: 10px;
@@ -366,52 +366,52 @@ h4 {
   padding-bottom: 20px;
 }
 
-/* line 248, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 249, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .calendar-table {
   width: 100%;
 }
 
-/* line 252, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 253, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 label {
   font-family: sans-serif;
 }
 
-/* line 255, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 256, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 tr, th, td {
   text-align: center;
   font-family: sans-serif;
   height: 25px;
 }
 
-/* line 261, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 262, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 td {
   background-color: #818181;
 }
 
-/* line 263, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 264, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 td:hover {
   background-color: #97c11d;
 }
 
-/* line 266, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 267, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 th {
   background-color: #323232;
   color: #fff;
 }
 
-/* line 270, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 271, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .list {
   border-radius: 5px;
 }
 
-/* line 273, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 274, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 [class*="profile-"] {
   background-color: #fff;
   height: 100%;
   border-top: 50px;
 }
 
-/* line 279, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 280, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .profile-drop {
   margin-top: 20px;
   border-radius: 5px;
@@ -419,17 +419,17 @@ th {
   width: 32%;
 }
 
-/* line 285, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 286, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .profile-pic {
   padding: 0;
 }
 
-/* line 293, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 294, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .profile-bio {
   margin-top: 5px;
 }
 
-/* line 297, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 298, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .profile-main {
   border-radius: 5px;
   height: 450px;
@@ -437,29 +437,29 @@ th {
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 304, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 305, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .profile-card {
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 310, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 311, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .info {
   height: 90%;
 }
 
-/* line 314, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 315, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .location {
   height: 190px;
 }
 
-/* line 318, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 319, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .list-pad {
   margin: 5px;
 }
 
-/* line 321, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 322, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .iframe {
   padding-right: 10px;
   width: 100%;
@@ -468,48 +468,48 @@ th {
   border: 0;
 }
 
-/* line 329, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 330, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .scloud {
   width: 100%;
   height: 100px;
   border: 0;
 }
 
-/* line 334, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 335, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .picture {
   margin: 0;
   border-radius: 5px;
 }
 
-/* line 339, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 340, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .event {
   margin-top: 70px;
 }
 
-/* line 343, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 344, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .feature {
   height: 150px;
   margin-top: 10px;
 }
 
-/* line 346, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 347, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .feature .pic {
   height: 100%;
   padding: 0;
 }
 
-/* line 350, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 351, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .feature .book {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/* line 356, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 357, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inbox {
   height: 300px;
 }
 
-/* line 360, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 361, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inbox-main {
   width: 100%;
   font-family: "Coda", cursive;
@@ -522,12 +522,12 @@ th {
   width: 80%;
 }
 
-/* line 367, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 368, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .inbox-main p {
   padding: 5px;
 }
 
-/* line 372, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 373, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .selector {
   height: 90%;
   background-color: #818181;
@@ -538,13 +538,13 @@ th {
   border-right: none;
 }
 
-/* line 379, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 380, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .selector ul {
   list-style: none;
   margin-top: 15px;
 }
 
-/* line 383, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 384, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .selector li {
   height: 18%;
   padding: 10px;
@@ -556,19 +556,19 @@ th {
   text-align: center;
 }
 
-/* line 393, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 394, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .selector p {
   color: #fff;
 }
 
-/* line 396, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 397, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .selector p:hover {
   color: #97c11d;
 }
 
-/* line 400, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 401, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .view {
-  height: 90%;
+  height: 100%;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   box-shadow: 3px 3px 3px #525252;
@@ -577,7 +577,7 @@ th {
   border-left: none;
 }
 
-/* line 409, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 410, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .requests {
   height: auto;
   background-color: #fff;
@@ -586,7 +586,12 @@ th {
   border-radius: 5px;
 }
 
-/* line 417, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 418, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+.content {
+  height: 245px;
+}
+
+/* line 421, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .receive-top {
   margin: 0;
   height: 30px;
@@ -595,7 +600,7 @@ th {
   border: 1px #000 solid;
 }
 
-/* line 425, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 429, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .receive-body {
   margin: 0;
   border: 1px #000 solid;
@@ -603,13 +608,13 @@ th {
   height: 60px;
 }
 
-/* line 431, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 435, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .receive-body p {
   font-size: 11pt;
   text-align: center;
 }
 
-/* line 437, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 441, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offers {
   height: auto;
   background-color: #fff;
@@ -617,7 +622,7 @@ th {
   border-radius: 5px;
 }
 
-/* line 444, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 448, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offer-top {
   margin: 0;
   height: 30px;
@@ -626,7 +631,7 @@ th {
   border: 1px #000 solid;
 }
 
-/* line 452, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 456, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offer-body {
   margin: 0;
   border: 1px #000 solid;
@@ -634,13 +639,13 @@ th {
   height: auto;
 }
 
-/* line 458, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 462, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .offer-body p {
   font-size: 11pt;
   text-align: center;
 }
 
-/* line 464, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 468, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .accept {
   background-color: #fff;
   transition: 0.5s ease 0s;
@@ -650,23 +655,23 @@ th {
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 467, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 471, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .accept:hover {
   background-color: #97c11d;
 }
 
-/* line 472, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 476, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .accept a {
   color: #000;
   text-decoration: none;
 }
 
-/* line 475, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 479, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .accept a:hover {
   color: #fff;
 }
 
-/* line 479, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 483, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .decline {
   border: 1px #000 solid;
   border-radius: 5px;
@@ -676,150 +681,150 @@ th {
   box-shadow: 3px 3px 3px #525252;
 }
 
-/* line 484, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 488, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .decline:hover {
   background-color: #FE2E2E;
 }
 
-/* line 488, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 492, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .decline a {
   color: #000;
   text-decoration: none;
 }
 
-/* line 491, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+/* line 495, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
 .decline a:hover {
   color: #fff;
 }
 
 @media (max-width: 1000px) {
-  /* line 496, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 500, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .drop {
     clear: both;
     width: 100%;
   }
-  /* line 500, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 504, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .aside {
     width: 33.32%;
   }
-  /* line 503, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 507, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .main {
     width: 66.64%;
     margin-right: 0;
   }
-  /* line 507, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 511, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .hide {
     display: none;
   }
-  /* line 510, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 514, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .article {
     width: 50%;
     margin-right: 0;
   }
-  /* line 514, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 518, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .calendar {
     height: 300px;
     margin-right: 0;
   }
-  /* line 518, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 522, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .calendar, .list {
     border-radius: 0px;
   }
-  /* line 521, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 525, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .nav {
     margin-right: 60%;
   }
-  /* line 524, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 528, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   body::-webkit-scrollbar {
     display: none;
   }
-  /* line 527, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 531, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-main {
     width: 100%;
     margin-top: 0;
     border-radius: 0;
   }
-  /* line 532, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 536, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-drop {
     width: 100%;
     margin: 0;
     margin-top: 10px;
     border-radius: 0;
   }
-  /* line 538, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 542, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-card {
     margin-top: 50px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px #525252;
   }
-  /* line 543, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 547, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .selector {
     margin-right: 0;
     min-width: 100px;
   }
-  /* line 547, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 551, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .selector li {
     min-width: 80px;
   }
-  /* line 551, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 555, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .inbox-main {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 556, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 560, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   h3 {
     font-size: 12pt;
     margin: 0;
   }
-  /* line 562, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 566, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .feature .book {
     font-size: 10pt;
   }
 }
 
 @media (max-width: 600px) {
-  /* line 569, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 573, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .drop {
     clear: both;
     width: 100%;
   }
-  /* line 573, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 577, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .aside {
     clear: both;
     width: 100%;
     height: 80px;
     margin-top: 0;
   }
-  /* line 579, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 583, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .main {
     width: 100%;
     margin-top: 170px;
     height: 240px;
   }
-  /* line 584, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 588, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .article {
     width: 100%;
   }
-  /* line 587, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 591, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .lower {
     margin-top: 10px;
   }
-  /* line 590, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 594, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .nav1, .nav2, .nav3, .nav4, .nav5 {
     width: 20%;
   }
-  /* line 593, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 597, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .icon {
     width: 55%;
     vertical-align: middle;
     min-width: 30px;
   }
-  /* line 598, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 602, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .list {
     margin-top: 10px;
   }
-  /* line 601, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 605, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .inboxhead {
     width: 100%;
     font-family: "Coda", cursive;
@@ -829,13 +834,13 @@ th {
     height: 100%;
     box-shadow: 3px 3px 3px #525252;
   }
-  /* line 606, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 610, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .inboxhead ul {
     list-style: none;
     margin-top: 0px;
     height: 100%;
   }
-  /* line 612, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 616, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .inboxhead li {
     margin-top: 0;
     border-top: 1px #000 solid;
@@ -845,24 +850,24 @@ th {
     padding: 8px;
     padding-top: 15px;
   }
-  /* line 622, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 626, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .logo {
     height: auto;
     width: 95%;
   }
-  /* line 626, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 630, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-main {
     height: 100%;
   }
-  /* line 629, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 633, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-main .iframe {
     height: 150px;
   }
-  /* line 633, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 637, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .info {
     width: 100%;
   }
-  /* line 636, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 640, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .profile-card {
     margin-top: 50px;
     border-radius: 5px;
@@ -870,34 +875,34 @@ th {
     width: 95%;
     margin: 10px;
   }
-  /* line 643, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 647, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .inbox-main {
     height: auto;
     width: 100%;
   }
-  /* line 648, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 652, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .selector {
     width: 100%;
     border-radius: 0;
     border: none;
   }
-  /* line 653, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 657, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .selector li {
     padding-top: 10px;
   }
-  /* line 657, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 661, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .view {
     width: 100%;
     margin-top: 10px;
     border-radius: 0;
     border: 1px #000 solid;
   }
-  /* line 663, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 667, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .requests {
     width: 100%;
     border-radius: 0;
   }
-  /* line 667, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
+  /* line 671, C:/Users/Sam/Documents/Website-Design/scss/style.scss */
   .offers {
     width: 100%;
     border-radius: 0;
