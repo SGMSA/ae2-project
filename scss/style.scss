@@ -1,3 +1,6 @@
+/*Sam St Aubyn - AE2 Responsive Web Design */
+
+/* Variables */
 $body-bg: transparent; 
 
 $text: #000;
@@ -12,6 +15,10 @@ $title-1: 'Coda', cursive;
 $radius: 5px;
 $box-shadow: 3px 3px 3px #525252;
 
+/* End of variables*/
+
+/* Column width loop */
+
 $max_cols : 12;
 $max_width : 100%;
 $single_col : $max_width / $max_cols;
@@ -19,6 +26,8 @@ $single_col : $max_width / $max_cols;
 @for $i from 1 through 12 {
     .col-#{$i} { width: $single_col * $i }
 }
+
+/* Offset width loop */
 
 $max_cols : 12;
 $max_width : 100%;
@@ -28,6 +37,8 @@ $offset_col : $max_width / $max_cols;
     .offset-#{$i} { width: $offset_col * $i }
 }
 
+/* Mixin for inbox style */
+
 @mixin inbox {
     width: 100%;
     font-family: $title-1;
@@ -36,15 +47,21 @@ $offset_col : $max_width / $max_cols;
     border-radius: $radius;
 }
 
+/* Mixin for left side radius */
+
 @mixin radius-left {
     border-bottom-left-radius: $radius;
     border-top-left-radius: $radius;
 }
 
+/* Mixin for right side radius */
+
 @mixin radius-right {
     border-top-right-radius: $radius;
     border-bottom-right-radius: $radius;
 }
+
+/* All round classes */
 
 *,
 *:after,
@@ -123,6 +140,8 @@ p {
     font-family: $font;
 }
 
+/* Navigation classes */
+
 .nav {
     margin: 0 auto;
     height: 60px;
@@ -161,6 +180,8 @@ p {
     width: $nav-width;
 }
 
+/* Title style classes */
+
 h2 {
     font-family: $title-1;
     font-size: 22pt;
@@ -177,6 +198,9 @@ h4 {
     font-size: 12pt;
     text-align: center;
 }
+
+/* Index page classes */
+
 .icon {
         width: 100%;
 }
@@ -239,6 +263,23 @@ h4 {
     }
 }
 
+.profile-drop {
+    margin-top: 20px;
+    border-radius: $radius;
+    box-shadow: $box-shadow;
+    width: 32%;
+}
+
+
+
+
+
+
+
+
+
+/* Events Classes */
+
 .calendar {
     height: auto;;
     margin-right: 10px;
@@ -271,11 +312,25 @@ th {
 .list {
     border-radius: $radius;
 }
-[class*="profile-"] {
-    background-color: $white;
-    height: 100%;
-    border-top: 50px;
+
+.event {
+    margin-top: 70px;
 }
+
+.feature {
+    height: 150px;
+    margin-top: 10px;
+    .pic {
+        height: 100%;
+        padding: 0;
+    }
+    .book {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+
+/* Contact Classes */
 
 span.incorrect {
     color: red;
@@ -287,12 +342,12 @@ span.correct {
     float: right;
 }
 
-label {
-    padding: 20px;
-}
-
 .message {
     margin-left: 30px;
+}
+
+label {
+    padding: 20px;
 }
 
 .submit {
@@ -301,18 +356,17 @@ label {
     margin-bottom: 20px;
 }
 
-.profile-drop {
-    margin-top: 20px;
-    border-radius: $radius;
-    box-shadow: $box-shadow;
-    width: 32%;
-}
+
+/* Profile Classes */
+
 .profile-pic {
     padding: 0;
 }
 
-.profile-title {
-    
+[class*="profile-"] {
+    background-color: $white;
+    height: 100%;
+    border-top: 50px;
 }
 
 .profile-bio {
@@ -361,22 +415,7 @@ label {
     border-radius: $radius;
 }
 
-.event {
-    margin-top: 70px;
-}
-
-.feature {
-    height: 150px;
-    margin-top: 10px;
-    .pic {
-        height: 100%;
-        padding: 0;
-    }
-    .book {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-}
+/* Inbox Classes */
 
 .inbox {
     height: 300px;
@@ -421,6 +460,8 @@ label {
             &:hover{color: #97c11d;}
         }
 }
+
+/* Requests Classes */
 
 .view {
     height: 100%;
@@ -522,6 +563,8 @@ label {
     }
 }
 
+/* Styles starting at 1000px width for tablet */
+
 @media (max-width: 1000px) {
         .drop {
             clear: both;
@@ -597,6 +640,9 @@ label {
             width: 100%;
         }
     }
+
+
+/* Styles starting at 600px width for mobile */
 
 @media (max-width: 600px) {
         .drop {

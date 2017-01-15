@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Sam St Aubyn AE2 Responsive website -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="Images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
@@ -23,7 +24,7 @@
             <div class="row ">
                 <div class="offset-3">
                 </div>
-                <div class="col-6 requests">
+                <div class="col-6 requests"> <!-- Retains the same style box -->
                     <form id="contact" method="get"> <!-- Start of form -->
                         <fieldset class="contact">
                             <legend><h3>Enter Your Details</h3></legend><br><!-- Use of <br> tags to give better spacings -->
@@ -42,7 +43,7 @@
                                 <label>Phone: <input type="text" name="details" maxlength="11"></label>
                                     <br><br>
                                 <label>Message?&#42;<br>
-                                    <textarea class="message" id="uMessage" name="userMessage" rows="3" cols="24" onchange="validateForm(event)"></textarea>
+                                    <textarea class="message" id="uMessage" name="userMessage" rows="3" cols="24" onchange="validateForm(event)"></textarea> <!-- Message box -->
                                         <span id="errorMessage" class="incorrect" style="display:none"> &#10006;</span>
                                         <span id="tickMessage" class="correct" style="display:none"> &#10003;</span>
                                 </label><br><br>
